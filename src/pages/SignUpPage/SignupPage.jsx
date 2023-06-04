@@ -92,7 +92,7 @@ const SignUp = () => {
                                     <label htmlFor="dropdown" className="block text-sm font-medium text-gray-700">User Type</label>
                                     <div className="mt-1">
 
-                                        <select id="dropdown" required value={selectedValue} onChange={handleSelectChange} className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                                        <select id="dropdown" required value={selectedValue} onChange={handleSelectChange} className=" block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                                         <option value="option1">Investor</option>
                                         <option value="option2">Business Owner</option>
                                     </select>
