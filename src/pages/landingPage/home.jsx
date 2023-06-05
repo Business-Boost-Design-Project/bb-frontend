@@ -6,7 +6,7 @@ import Card from "../../components/Card/Card";
 import SmallCard from "../../components/Small card/SmallCard";
 import { BsPersonCheck, BsSearch, BsBriefcase } from 'react-icons/bs';
 function Home() {
-    return(
+    return (
         <div>
             <Navbar></Navbar>
 
@@ -110,9 +110,9 @@ function Home() {
                 <div className="container mx-auto">
                     <h2 className="text-3xl font-bold text-3D155F text-center mb-8">In Some Few Steps</h2>
                     <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-                        <SmallCard icon={<BsPersonCheck/>} text="Create A Business" />
-                        <SmallCard icon={<BsSearch/>} text="Get Investment" />
-                        <SmallCard icon={<BsBriefcase/>} text="Grow your Business" />
+                        <SmallCard icon={<BsPersonCheck />} text="Create A Business" />
+                        <SmallCard icon={<BsSearch />} text="Get Investment" />
+                        <SmallCard icon={<BsBriefcase />} text="Grow your Business" />
                     </div>
                 </div>
             </section>

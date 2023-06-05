@@ -28,7 +28,10 @@ const Card = ({key, image, title, likes, description, category, price }) => {
                 <p className="text-gray-500 text-sm font-medium mb-4">{description}</p>
                 <div className="flex items-center justify-center mb-4">
                     <button className="py-2 px-10 border-2 border-df678c text-df678c font-medium rounded-md">
+                      <a href="/businessid">
+
                         View
+                      </a>
                     </button>
                 </div>
                 <div className="flex items-center justify-between text-gray-500 text-sm">
